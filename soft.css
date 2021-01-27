@@ -17,7 +17,6 @@ body {
     border-radius: 10px;
     box-shadow: 10px 5px 5px black;
     text-shadow: white 2px 0px 3px;
-    margin-top: -56;
     transition: transform 1s;
 }
 .soft:hover {
@@ -48,7 +47,7 @@ a {
     text-decoration: none;
 }
 .titre {
-    width: 21em;
+    width: 20em;
 }
 .all {
     margin-left: auto;
