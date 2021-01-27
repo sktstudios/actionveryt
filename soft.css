@@ -1,0 +1,57 @@
+body {
+    padding: 10;
+    background: conic-gradient(from 180deg at 50% 50%, #FFFFFF 0deg, #000000 60deg, #FFFFFF 84.38deg, #000000 125.63deg, #FFFFFF 187.5deg, #000000 258.75deg, #FFFFFF 290.63deg, #000000 339.37deg, #FFFFFF 360deg), radial-gradient(100.01% 100.01% at 50.52% -0.01%, #22AADD 0%, #E1F664 19.79%, #FFEEBB 39.58%, #ABB3FC 59.38%, #5DF7A4 80.21%, #58C4F6 100%);
+    background-blend-mode: screen, normal;
+    backdrop-filter: blur(10px);
+    zoom: 190%
+}
+.soft {
+    color: black;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-family: arial;
+    margin: 15;
+    font-size: 16;
+    background-image: linear-gradient(165deg, #f9484a 25%, #fbd72b 70%);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+    text-shadow: white 2px 0px 3px;
+    margin-top: -56;
+    transition: transform 1s;
+}
+.soft:hover {
+    transform: scale(1.1);
+}
+.retour {
+    color: black;
+    display: inline-block;
+    text-align: center;
+    font-weight: bolder;
+    font-family: arial;
+    margin: 15;
+    font-size: 30;
+    background-image: linear-gradient(315deg, #84fb95 0%, #cef576 74%);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+    text-shadow: white 2px 0px 3px;
+    margin-top: 0;
+    transition: transform 1s;
+    width: 5em;
+    margin-bottom: 0;
+}
+.retour:hover {
+    transform: scale(1.1);
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.titre {
+    width: 21em;
+}
+.all {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+}
