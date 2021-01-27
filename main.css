@@ -3,7 +3,7 @@ body {
     background: conic-gradient(from 180deg at 50% 50%, #FFFFFF 0deg, #000000 60deg, #FFFFFF 84.38deg, #000000 125.63deg, #FFFFFF 187.5deg, #000000 258.75deg, #FFFFFF 290.63deg, #000000 339.37deg, #FFFFFF 360deg), radial-gradient(100.01% 100.01% at 50.52% -0.01%, #22AADD 0%, #E1F664 19.79%, #FFEEBB 39.58%, #ABB3FC 59.38%, #5DF7A4 80.21%, #58C4F6 100%);
     background-blend-mode: screen, normal;
     backdrop-filter: blur(10px);
-    zoom: 200%;
+    zoom: 190%;
 }
 .soft {
     color: black;
