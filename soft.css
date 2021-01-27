@@ -17,10 +17,6 @@ body {
     border-radius: 10px;
     box-shadow: 10px 5px 5px black;
     text-shadow: white 2px 0px 3px;
-    transition: transform 1s;
-}
-.soft:hover {
-    transform: scale(1.1);
 }
 .retour {
     color: black;
