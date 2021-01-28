@@ -42,11 +42,45 @@ a {
     color: black;
     text-decoration: none;
 }
-.titre {
-    width: 10em;
-}
 .all {
     margin-left: auto;
     margin-right: auto;
     width: 9em;
+}
+p {
+    color: black;
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    font-family: arial;
+    margin: 15;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60;
+    font-size: 13;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border-radius: 10px;
+    border: 0px solid;
+    text-shadow: white 2px 0px 3px;
+    width: 250;
+}
+button {
+    color: black;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-family: arial;
+    margin: 15;
+    margin-top: 60;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20;
+    background-image: linear-gradient(to right, #1CD8D2 0%, #93EDC7  51%, #1CD8D2  100%);
+    border-radius: 10px;
+    text-shadow: white 2px 0px 3px;
+    width: 6em;
+    transition: transform 1s;
+}
+button:hover {
+    transform: scale(1.1);
 }

@@ -13,20 +13,22 @@
     <div class="titre">
     <div class="logo"><a href="#" alt="logo" ></a></div>
         <div class="soft"><h1>Soft</h1></div>
-        <div class="question"><p id="question"></p></div>
     </div>
     </div>
-    <button onclick='randomtxt()' >rrr</button>
+    <div class="question"><p id="question"></p></div>
+    <button id="button" onclick='randomtxt()' >GO !</button>
     <script type="text/javascript" >
     function randomtxt() { var r_text = new Array ();
-r_text[0] = "1";
+r_text[0] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
 r_text[1] = "2";
 r_text[2] = "3";
 r_text[3] = "4";
 r_text[4] = "5";
 
 var i = Math.floor(r_text.length * Math.random());
-document.getElementById('question').innerHTML = (r_text[i]);}
+document.getElementById('question').innerHTML = (r_text[i])
+document.getElementById('question').style.border = '0px solid';
+document.getElementById('button').innerHTML = 'Suivant'}
     </script>
     </body>
 </html>
