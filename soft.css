@@ -17,7 +17,7 @@ body {
     border-radius: 10px;
     box-shadow: 10px 5px 5px black;
     text-shadow: white 2px 0px 3px;
-    margin-bottom: 150;
+    margin-bottom: 10;
 }
 .retour {
     color: black;
@@ -57,14 +57,14 @@ p {
     margin: 15;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 300;
+    margin-top: 275;
     font-size: 25;
     background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     border-radius: 10px;
     border: 0px solid;
     text-shadow: white 2px 0px 3px;
     width: 210;
-    margin-bottom: 300;
+    margin-bottom: 275;
 }
 button {
     color: black;
@@ -75,7 +75,7 @@ button {
     margin: 15;
     margin-left: auto;
     margin-right: auto;
-    font-size: 20;
+    font-size: 40;
     background-image: linear-gradient(to right, #1CD8D2 0%, #93EDC7  51%, #1CD8D2  100%);
     border-radius: 10px;
     text-shadow: white 2px 0px 3px;
