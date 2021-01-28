@@ -64,6 +64,7 @@ p {
     border: 0px solid;
     text-shadow: white 2px 0px 3px;
     width: 210;
+    margin-bottom: 100;
 }
 button {
     color: black;
@@ -72,7 +73,7 @@ button {
     font-weight: bolder;
     font-family: arial;
     margin: 15;
-    margin-top: 60;
+    margin-top: 100;
     margin-left: auto;
     margin-right: auto;
     font-size: 20;
