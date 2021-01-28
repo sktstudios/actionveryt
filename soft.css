@@ -57,14 +57,14 @@ p {
     margin: 15;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 250;
+    margin-top: 200;
     font-size: 25;
     background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     border-radius: 10px;
     border: 0px solid;
     text-shadow: white 2px 0px 3px;
     width: 210;
-    margin-bottom: 250;
+    margin-bottom: 200;
 }
 button {
     color: black;
