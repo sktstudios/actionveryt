@@ -1,0 +1,100 @@
+body {
+    padding: 10;
+    background: conic-gradient(from 180deg at 50% 50%, #FFFFFF 0deg, #000000 60deg, #FFFFFF 84.38deg, #000000 125.63deg, #FFFFFF 187.5deg, #000000 258.75deg, #FFFFFF 290.63deg, #000000 339.37deg, #FFFFFF 360deg), radial-gradient(100.01% 100.01% at 50.52% -0.01%, #22AADD 0%, #E1F664 19.79%, #FFEEBB 39.58%, #ABB3FC 59.38%, #5DF7A4 80.21%, #58C4F6 100%);
+    background-blend-mode: screen, normal;
+    backdrop-filter: blur(10px);
+    zoom: 250%
+}
+.ados {
+    color: black;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-family: arial;
+    margin: 15;
+    font-size: 13;
+    background-image: linear-gradient(165deg, #f9484a 25%, #fbd72b 70%);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+    text-shadow: white 2px 0px 3px;
+    margin-bottom: 10;
+}
+.retour {
+    color: black;
+    display: inline-block;
+    text-align: center;
+    font-weight: bolder;
+    font-family: arial;
+    margin: 15;
+    font-size: 20;
+    background-image: linear-gradient(315deg, #84fb95 0%, #cef576 74%);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+    text-shadow: white 2px 0px 3px;
+    margin-top: 0;
+    transition: transform 1s;
+    width: 5em;
+    margin-bottom: 0;
+}
+.retour:hover {
+    transform: scale(1.1);
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.all {
+    margin-left: auto;
+    margin-right: auto;
+    width: 9em;
+}
+p {
+    color: black;
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    font-family: arial;
+    margin: 15;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180;
+    font-size: 25;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border-radius: 10px;
+    border: 0px solid;
+    text-shadow: white 2px 0px 3px;
+    width: 300;
+    margin-bottom: 180;
+}
+.button1 {
+    color: black;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-family: arial;
+    margin: 15;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35;
+    background: linear-gradient(to right, #cb2d3e, #ef473a);
+    border-radius: 10px;
+    text-shadow: white 2px 0px 3px;
+    width: 6em;
+    border: none;
+}
+.button2 {
+    color: black;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-family: arial;
+    margin: 15;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35;
+    background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+    border-radius: 10px;
+    text-shadow: white 2px 0px 3px;
+    width: 6em;
+    border: none;
+}

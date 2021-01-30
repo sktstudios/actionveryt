@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="width=device-width, initial-scale=1"/>
+<meta name="description" content="Action ou Very T" />
+<meta name="keywords" content="action, verité, verite, action ou verite, action ou verité, jeux, amis, jeux entre amis, jeux de soirées" />
+<title>Action ou Very T</title>
+<link href="ados.css" rel="stylesheet" type="text/css" />
+<link rel="icon" type="image/png" href="logov2.png"/>
+</head>
+    <body>
+    <div class="retour" ><a href="https://sktstudios.github.io/actionveryt/index.html" >Retour</a></div>
+    <div class="all">
+    <div class="titre">
+    <div class="logo"><a href="#" alt="logo" ></a></div>
+        <div class="ados"><h1>Ados</h1></div>
+    </div>
+    </div>
+    <div class="question"><p id="question"></p></div>
+    <button id="button1" class="button1" onclick='randomtxt()' >ACTION</button>
+    <button id="button2" class="button2" onclick='randomtxt2()' >VERITÉ</button>
+<script type="text/javascript" >
+    function randomtxt() { var arr = [ ];
+var i = Math.floor(Math.random() * arr.length)
+
+document.getElementById('question').innerHTML = (arr[i]);
+document.getElementById('question').style.border = '0px solid';}
+</script>
+<script type="text/javascript" >
+    function randomtxt2() { var arr = [ ];
+var i = Math.floor(Math.random() * arr.length)
+
+document.getElementById('question').innerHTML = (arr[i]);
+document.getElementById('question').style.border = '0px solid';}
+</script>
+    </body>
+</html>
