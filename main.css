@@ -10,7 +10,7 @@ img {
     margin: 10;
     margin-left: auto;
     margin-right: auto;
-    
+   margin-top: 75; 
 }
 .soft {
     color: black;
@@ -25,6 +25,7 @@ img {
     box-shadow: 10px 5px 5px black;
     text-shadow: white 2px 0px 3px;
     transition: transform 1s;
+    margin-bottom: 50;
 }
 .soft:hover {
     transform: scale(1.1);
@@ -53,7 +54,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 9em;
-    margin-top: 60;
+    margin-top: 100;
 }
 a {
     color: black;
@@ -82,4 +83,6 @@ input {
     margin-right: auto;
     border-style: none;
     width: 300;
+    height: 40;
+    margin-top: 50;
 }
