@@ -76,7 +76,7 @@ input {
     font-size: 25;
     background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
     border-radius: 10px;
-    box-shadow: 10px 5px 0px black;
+    box-shadow: 10px 5px 5px black;
     text-shadow: white 2px 0px 3px;
     margin-left: auto;
     margin-right: auto;
