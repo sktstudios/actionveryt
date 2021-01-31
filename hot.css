@@ -3,50 +3,7 @@ body {
     background: conic-gradient(from 180deg at 50% 50%, #FFFFFF 0deg, #000000 60deg, #FFFFFF 84.38deg, #000000 125.63deg, #FFFFFF 187.5deg, #000000 258.75deg, #FFFFFF 290.63deg, #000000 339.37deg, #FFFFFF 360deg), radial-gradient(100.01% 100.01% at 50.52% -0.01%, #22AADD 0%, #E1F664 19.79%, #FFEEBB 39.58%, #ABB3FC 59.38%, #5DF7A4 80.21%, #58C4F6 100%);
     background-blend-mode: screen, normal;
     backdrop-filter: blur(10px);
-    zoom: 250%;
-}
-img {
-    display: block;
-    margin: 10;
-    margin-left: auto;
-    margin-right: auto;
-   margin-top: 75; 
-}
-.soft {
-    color: black;
-    display: block;
-    text-align: center;
-    font-weight: bolder;
-    font-family: arial;
-    margin: 15;
-    font-size: 43;
-    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
-    border-radius: 10px;
-    box-shadow: 10px 5px 5px black;
-    text-shadow: white 2px 0px 3px;
-    transition: transform 1s;
-    margin-bottom: 50;
-}
-.soft:hover {
-    transform: scale(1.1);
-}
-.ados {
-    color: black;
-    display: block;
-    text-align: center;
-    font-weight: bolder;
-    font-family: arial;
-    margin: 15;
-    font-size: 43;
-    background-image: linear-gradient(165deg, #f9484a 25%, #fbd72b 70%);
-    border-radius: 10px;
-    box-shadow: 10px 5px 5px black;
-    text-shadow: white 2px 0px 3px;
-    transition: transform 1s;
-    margin-bottom: 50;
-}
-.ados:hover {
-    transform: scale(1.1);
+    zoom: 250%
 }
 .hot {
     color: black;
@@ -55,52 +12,89 @@ img {
     font-weight: bolder;
     font-family: arial;
     margin: 15;
-    font-size: 43;
+    font-size: 13;
     background-image: linear-gradient(165deg, #f9484a 25%, #fbd72b 70%);
     border-radius: 10px;
     box-shadow: 10px 5px 5px black;
     text-shadow: white 2px 0px 3px;
+    margin-bottom: 10;
+}
+.retour {
+    color: black;
+    display: inline-block;
+    text-align: center;
+    font-weight: bolder;
+    font-family: arial;
+    margin: 15;
+    font-size: 20;
+    background-image: linear-gradient(315deg, #84fb95 0%, #cef576 74%);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+    text-shadow: white 2px 0px 3px;
+    margin-top: 30;
     transition: transform 1s;
-    margin-bottom: 50;
+    width: 5em;
+    margin-bottom: 0;
 }
-.hot:hover {
+.retour:hover {
     transform: scale(1.1);
-}
-.titre {
-    width: 10em;
-}
-.all {
-    margin-left: auto;
-    margin-right: auto;
-    width: 9em;
-    margin-top: 100;
 }
 a {
     color: black;
     text-decoration: none;
 }
-ul {
-  padding: 0;
-  text-align: center;
+.all {
+    margin-left: auto;
+    margin-right: auto;
+    width: 9em;
 }
-li {
-  display: inline;
+p {
+    color: black;
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    font-family: arial;
+    margin: 15;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180;
+    font-size: 25;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border-radius: 10px;
+    border: 0px solid;
+    text-shadow: white 2px 0px 3px;
+    width: 300;
+    margin-bottom: 180;
 }
-input {
+.button1 {
     color: black;
     display: block;
     text-align: center;
     font-weight: bolder;
     font-family: arial;
     margin: 15;
-    font-size: 25;
-    background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
-    border-radius: 10px;
-    box-shadow: 10px 5px 5px black;
-    text-shadow: white 2px 0px 3px;
     margin-left: auto;
     margin-right: auto;
-    border-style: none;
-    width: 300;
-    height: 40;
+    font-size: 35;
+    background: linear-gradient(to right, #cb2d3e, #ef473a);
+    border-radius: 10px;
+    text-shadow: white 2px 0px 3px;
+    width: 6em;
+    border: none;
+}
+.button2 {
+    color: black;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-family: arial;
+    margin: 15;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35;
+    background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+    border-radius: 10px;
+    text-shadow: white 2px 0px 3px;
+    width: 6em;
+    border: none;
 }
