@@ -3,7 +3,7 @@ body {
     background: conic-gradient(from 180deg at 50% 50%, #FFFFFF 0deg, #000000 60deg, #FFFFFF 84.38deg, #000000 125.63deg, #FFFFFF 187.5deg, #000000 258.75deg, #FFFFFF 290.63deg, #000000 339.37deg, #FFFFFF 360deg), radial-gradient(100.01% 100.01% at 50.52% -0.01%, #22AADD 0%, #E1F664 19.79%, #FFEEBB 39.58%, #ABB3FC 59.38%, #5DF7A4 80.21%, #58C4F6 100%);
     background-blend-mode: screen, normal;
     backdrop-filter: blur(10px);
-    zoom: 250%
+    zoom: 150%
 }
 .soft {
     color: black;
@@ -57,14 +57,14 @@ p {
     margin: 15;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 180;
+    margin-top: 100;
     font-size: 25;
     background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     border-radius: 10px;
     border: 0px solid;
     text-shadow: white 2px 0px 3px;
     width: 300;
-    margin-bottom: 180;
+    margin-bottom: 100;
 }
 .button1 {
     color: black;
@@ -97,4 +97,18 @@ p {
     text-shadow: white 2px 0px 3px;
     width: 6em;
     border: none;
+}
+@media (max-width: 991px) {
+    body {
+       zoom: 250%;
+    }
+    p {
+        font-size: 30px;
+    }
+    .retour {
+        font-size: 25px;
+    }
+    .soft {
+        font-size: 20px;
+    }
 }
